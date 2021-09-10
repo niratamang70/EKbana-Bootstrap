@@ -1,0 +1,48 @@
+body::before{
+    display: block;
+    content: '';
+    height:60px;
+}
+
+.card-bg{
+    background-color:#645394;
+}
+
+.bold{
+    font-weight:400;
+}
+
+.paragraph{
+    font-weight: 500;
+}
+
+.f-style{
+    font-style: normal;
+}
+
+#map{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.message-input{
+    height: 70px;
+}
+
+@media(min-width:768px){
+    .news-input{
+        width: 50%;
+    }
+}
+
+.button-group{
+    display: contents;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+.button-group button{
+    margin-top: 10px;
+}
